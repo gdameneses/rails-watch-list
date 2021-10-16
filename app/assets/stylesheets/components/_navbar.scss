@@ -10,3 +10,20 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.navbar {
+  z-index: 1;
+}
+
+.navbar {
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  h1 {
+    color: white;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
