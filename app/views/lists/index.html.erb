@@ -2,8 +2,7 @@
   <div class="row">
     <% @lists.each do |list| %>
       <%= link_to list_path(list) do %>
-        <div class="card" style="width: 18rem;">
-          <img src="<%= list.image_url %>" alt="">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= list.image_url %>); width: 18rem;">
           <h2><%= list.name %></h2>
         </div>
         <% end %>
