@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="row">
+  <div class="row" style="margin: 5px; justify-content: space-around;">
     <% @lists.each do |list| %>
       <%= link_to list_path(list) do %>
         <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= list.image_url %>); width: 18rem;">

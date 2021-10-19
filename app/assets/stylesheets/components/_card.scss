@@ -1,8 +1,11 @@
 .card {
+  padding: 5px;
+  padding-top: 10px;
   margin: 5px;
   background-size: cover;
   background-position: center;
-  height: 180px;
+  background-color: rgba(20,20,20,0.9);
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,5 +19,11 @@
 
 .card a {
   color: white;
-  text-decoration: none important!;
+  text-decoration: none;
+}
+
+
+
+a:hover {
+  text-decoration: none;
 }
